@@ -20,6 +20,8 @@ source .venv/bin/activate  # Windows Git Bash: source .venv/Scripts/activate
 pip install -e .
 ```
 
+This toolkit uses [crawl4ai](https://github.com/unclecode/crawl4ai) as the optional webpage-to-Markdown engine. Open Intelligence Kit provides the research workflow, source grading, immutable artifact naming, and source bundle structure.
+
 `crawl4ai` may need browser dependencies depending on your platform. See the upstream `crawl4ai` documentation if the first crawl fails.
 
 ## Quick start

@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/your-org/open-intelligence-kit"
+Homepage = "https://github.com/loong333/open-intelligence-kit"
 
 [project.scripts]
 oik-read-url = "open_intelligence_kit.deep_read_url:main"

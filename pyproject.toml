@@ -1,0 +1,22 @@
+[project]
+name = "open-intelligence-kit"
+version = "0.1.0"
+description = "Responsible public-source intelligence workflow with immutable crawl evidence and source bundles."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Open Intelligence Kit contributors"}]
+dependencies = [
+  "crawl4ai>=0.9.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/your-org/open-intelligence-kit"
+
+[project.scripts]
+oik-read-url = "open_intelligence_kit.deep_read_url:main"
+oik-batch-read = "open_intelligence_kit.batch_read_urls:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
